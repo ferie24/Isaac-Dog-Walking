@@ -1,0 +1,20 @@
+name: isaac-notebooks
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - ipykernel
+  - jupyterlab
+  - notebook
+  - ipywidgets
+  - numpy
+  - scipy
+  - matplotlib
+  - pandas
+  - pyyaml
+  - tqdm
+  - pip:
+      - isaacsim[all,rl]==5.*
+      - tensorboard
